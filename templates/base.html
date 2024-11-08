@@ -9,23 +9,19 @@
 <body>
     <header>
         <nav>
-            <ul>
-                <li>
-                    <a href="/usuarios">Usuários</a>
-                </li>
-                <li>
-                    <a href="/pizzas">Pizzas</a>
-                </li>
-                <li>
-                    <a href="/pedidios">Pedidos</a>
-                </li>
-            </ul>
+            <div class="links_nav">
+                <a href="/usuarios">Usuários</a>
+                <a href="/pizzas">Pizzas</a>
+                <a href="/pedidios">Pedidos</a>
+            </div>
         </nav>
     </header>
     <main>
         {% block conteudo %}
         {% endblock %}
     </main>
-    
+    <footer>
+        <p>© copyleft</p>
+    </footer>
 </body>
 </html>
